@@ -27,6 +27,10 @@ dependencies {
 	testCompileOnly 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
 	//롬복
+
+	//web libray 추가
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
 }
 
 tasks.named('test') {
